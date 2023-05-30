@@ -10,7 +10,6 @@ import (
 )
 
 func TestAzure(t *testing.T) {
-	t.Parallel()
 
 	common.LogColor("yellow", "Azure")
 
